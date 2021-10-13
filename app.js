@@ -1,5 +1,3 @@
-// const validator = require('validator')
-
 const chalk = require('chalk')
 const yargs = require('yargs')
 
@@ -73,23 +71,3 @@ yargs.command({
 
 
 yargs.parse()
-//console.log(yargs.argv)
-
-
-// console.log(validator.isURL('https:/sm96gmail.com'))
-
-// console.log(chalk.green.inverse.bold('Error'))
-
-// console.log(chalk.red(process.argv[2]))
-
-//const fs = require('fs');
-
-//fs.writeFileSync('notes.txt','hello shaurya')
-
-//fs.appendFileSync('notes.txt', '\ntext appended')
-
-//const add = require('./util.js')
-
-//const name = "Shaurya"
-
-// console.log(add(5,7))
